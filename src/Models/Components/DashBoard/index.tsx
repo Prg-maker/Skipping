@@ -10,10 +10,25 @@ export function DashBoard() {
 
       <div className="icons">
 
-        <HomeIcon />
-        <GraphIcon />
-        <DateIcon />
-        <UserIcon />
+
+        <div>
+          <HomeIcon />
+
+        </div>
+
+        <div>
+          <GraphIcon />
+
+        </div>
+
+        <div>
+          <DateIcon />
+
+        </div>
+
+        <div>
+          <UserIcon />
+        </div>
 
       </div>
 

@@ -23,52 +23,59 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
+
+
+    >div{
+      width: 50px;
+      height: 50px;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin-bottom: 30px;
+
+      &:hover{
+        background: #464646;
+        border-radius:40%;
+
+
+      }
+    }
+
   }
+
+
 
 `
 
 
 const StylesIcons = css`
+  box-sizing: border-box;
   width: 25px;
   height: 25px;
   cursor: pointer;
   fill: #fff;
-  margin-bottom: 45px;
 `
 
-const StylesIconsHover = css`
 
-  &:hover{
-    transition: 0.1s;
-    filter: brightness(1);
-    background: rgba(210, 210, 210, 0.3);
-    border-radius:50px;
-    transform: scale(1, 1);
-  
-  }
-`
+
 
 export const CircleIcon = styled(AiOutlineDollarCircle)`
   ${StylesIcons}
 `
 
 export const HomeIcon = styled(RiHome2Line)`
-  ${StylesIconsHover}
   ${StylesIcons}
 `
 export const GraphIcon = styled(GoGraph)`
-  ${StylesIconsHover}
 
   ${StylesIcons}
 `
 export const DateIcon = styled(MdDateRange)`
-  ${StylesIconsHover}
 
   ${StylesIcons}
 `
 export const UserIcon = styled(FiUser)`
-  ${StylesIconsHover}
-
   ${StylesIcons}
 `
 export const LogoutIcon = styled(BiLogOutCircle)`
