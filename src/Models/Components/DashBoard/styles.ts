@@ -11,6 +11,7 @@ export const Container = styled.div`
   width: 102px;
   height: 100vh;
   background: #080808;
+  position:fixed;
 
   display: flex;
   flex-direction: column;

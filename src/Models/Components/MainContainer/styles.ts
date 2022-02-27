@@ -2,5 +2,5 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
-  margin-left:42px;
+  margin-left: 200px;
 `

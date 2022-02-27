@@ -1,11 +1,15 @@
-import {Header} from '../Header'
+import { Header } from '../Header'
+import { Main } from '../Main'
 
-import {Container} from './styles'
+import { Container } from './styles'
 
-export function MainContainer(){
-  return(
+export function MainContainer() {
+  return (
     <Container>
-      <Header/>
+      <Header />
+
+      <Main />
+
     </Container>
 
   )

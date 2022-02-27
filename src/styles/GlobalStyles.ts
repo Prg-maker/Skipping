@@ -6,9 +6,17 @@ export const GlobalStyles = createGlobalStyle`
     padding:0;
     box-sizing:border-box;
 
+
   }
 
   * , input, button {
     font-family: 'Poppins', sans-serif;
   }
+
+  html,body,#root{
+    height:100%;
+    overflow:none;
+
+  }
+
 `
