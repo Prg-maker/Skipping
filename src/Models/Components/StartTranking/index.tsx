@@ -1,6 +1,12 @@
-export function StartTranking(){
-  return(
-    <h1>StartTranking</h1>
+import { Container, Button, Minutos, } from './styles'
+
+export function StartTranking() {
+  return (
+    <Container>
+      <Button>Start Tranking</Button>
+
+      <p><Minutos>15</Minutos> mins</p>
+    </Container>
   )
-  
+
 }

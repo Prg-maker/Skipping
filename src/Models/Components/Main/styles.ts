@@ -25,6 +25,8 @@ export const Grid = styled.div`
     >img{
       width: 600px;
       height: 600px;
+      position:relative;
+      right: 100px;
     }
 
 
