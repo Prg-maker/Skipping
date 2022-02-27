@@ -3,6 +3,7 @@ import SkipppingIllustation from '../../assets/skipppingillustationcard.svg'
 
 import { Run } from '../Run'
 import { StartTranking } from '../StartTranking'
+import { CategoryCard } from '../CategoryCard'
 
 export function Main() {
   return (
@@ -17,6 +18,8 @@ export function Main() {
 
       <Run />
       <StartTranking />
+      <CategoryCard />
+
     </Grid>
   )
 }

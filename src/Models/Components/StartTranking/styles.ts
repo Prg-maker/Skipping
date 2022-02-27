@@ -3,12 +3,13 @@ import styled from 'styled-components'
 export const Container = styled.div`
   grid-area: ST;
 
-  margin-top: 100px;
+  margin: 100px 0;
 
   display: flex;
   justify-content:space-between;
   align-items:center;
   padding:0 60px 0 30px;
+
 
 
   >p{
